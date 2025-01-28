@@ -1,0 +1,347 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #231F20;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    color: white;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 170px;
+    background-image: url(Images/amazon-logo-png-2400x2001_abf78dd4_transparent_202878.png.png);
+    background-size: cover;
+    background-color: #231F20;
+}
+
+.logo img{
+    width: 110px;
+}
+.address{
+    height: 50px;
+    width: 150px;
+    background-color: #231F20;
+    padding-top: 10px;
+    margin-left: 7px;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add11{
+    font-size: 14px;
+    color: rgb(160, 152, 152);
+}
+.add1{
+    margin-left: 15px;
+}
+.add2{
+    display: flex;
+}
+.add22{
+    margin-left: 4px;
+    font-size: 20px;
+}
+.nav-search{
+    display: flex;
+    margin-left: 10px;
+    background-color: rgb(251, 176, 15);
+    /* width: 620px; */
+    width: 100%;
+    height: 35px;
+    justify-content: space-evenly;
+    border-radius: 3px;
+}
+.nav-select{
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+    border-top-left-radius:3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.darker:hover{
+    background-color: gray;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lang{
+     margin: 3px 5px 3px 5px;
+     display: flex;
+     align-items: center;
+     width: 60px;
+     height: 50px;
+}
+#amerika-flag{
+    height: 15px;
+    width: 20px;
+    background-image: url(Images/th.jpg);
+    background-size: cover;
+}
+
+.lang-select{
+    height: 15px;
+    display: flex;
+    justify-content: end;
+    background-color: #231F20;
+    color: white;
+    border: none;
+    font-size: 16px; 
+}
+.hello-1{
+    padding-left: 10px;
+    font-size: 12px;
+}
+.nav-select-2{
+    width: 130px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+.Select-2{
+    padding: 5px 7px;
+}
+.nav-select-23{
+    background-color: #231F20;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: 900;
+    width: 122px;
+}
+.Ord-ret{
+    height: 50px;
+    width: 120px;
+    text-align: center;
+}
+.ret{
+    font-size: 12px;
+    margin-top: 7px;
+    
+}
+.ord{
+    font-size: 100%;
+    font-weight: 900px;
+}
+.cart{
+    height: 50px;
+    width: 100px;
+    display: flex;
+}
+.cart1{
+    height: 50px;
+    width: 50px;
+    background-image: url(Images/amazon-cart-png-3.png);
+    background-size: cover;
+}
+.cart2{
+    font-size: 20px;
+    font-weight: 900px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+/* navbar 2nd start */
+
+
+.border-nav-2:hover{
+    width: 100px;
+    height: 35px;
+    border: 1px solid white;   
+}
+.navbar-2{
+    height: 40px;
+    background-color: rgb(71, 71, 87);
+    color: white;
+    align-items: center;
+    display: flex;
+    align-content: center; 
+    text-align: center; 
+}
+.nav-2-property{
+    margin-left:20px;
+    font-weight: 500;
+}
+.all{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.nav-2-para-1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 5px;
+}
+.Todays-deals{
+     width: 120px;
+}
+
+/* .navbar-2{
+    height: 40px;
+    background-color: rgb(71, 71, 87);
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: left;
+    
+    
+}
+.palet-object p{
+    display: inline;
+    margin-left: 20px;
+    
+}
+.palet-object{
+    width: 70%;
+} */
+
+
+
+/* hero section */
+
+.hero{
+    height: 400px;
+    width: 1200px;
+    background-image: url(Images/61lwJy4B8PL._SX3000_.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.Hero-msg{
+    background-color: white;
+    height: 40px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.Hero-msg a{
+    color: rgb(99, 99, 242);
+}
+
+/* shop */
+
+
+.shop{
+    height: 750px;
+    background-color: rgb(225, 222, 222);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    animation: zoom 2s ease-in-out 0s infinite normal;
+
+}
+.box{
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 10px 0px 15px;
+}
+.box-img{
+    height: 270px;
+    background-image: url(Images/Fuji_Desktop_Single_image_EBF_2x_v1._SY608_CB573698005_.jpg);
+    background-size: cover; 
+}
+.box-all-content{
+    margin: 0px 15px 15px 15px;
+}
+.box-para{
+    color: rgb(77, 77, 209);
+}
+
+/* section-2 */
+
+ .shop-2{
+    height: 300px;
+    width: 1200px;
+    padding-top: 10px;
+    padding-left: 15px; 
+}
+
+.shop-2-img{
+    background-color: white;
+    height: 250px;
+    width: 100px;
+    display: flex;
+}
+.mobile{
+    background-image: url(Images/Mobile_tamp1.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 100px;
+    scroll-snap-type: y mandatory;
+
+}
+.img-width{
+    width: 100px;
+}
+.next{
+    background-color: rgb(225, 222, 222);
+    row-gap: 150px;
+}
+
+/* Foorter */
+.footer-main{
+    height: 500px;
+    background-color: rgb(37, 14, 73);
+    color: white;  
+}
+.foot-div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color:rgb(115, 68, 190) ;
+    color: white;     
+}
+.foot-div1:hover{
+    background-color: rgb(191, 140, 239) ;
+}
+.div-list{
+     padding-left: 20px; 
+     padding-top: 30px; 
+     display: flex; 
+     justify-content: space-evenly;  
+     
+}
+.list:hover{
+    text-decoration: underline;
+}
+.list{
+    color: white;
+    text-decoration: none;
+
+}
+.list1 p,.list2 p,.list3 p,.list4 p{
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
